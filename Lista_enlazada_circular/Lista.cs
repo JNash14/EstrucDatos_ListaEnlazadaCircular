@@ -81,7 +81,11 @@ namespace Lista_enlazada_circular
 
         public bool Buscar(int valor)
         {
+            if (pri == null)  // Verificar si la lista está vacía
+                return false; 
+
             Nodo actual = pri;
+       
             do
             {
                 if (actual.Dato == valor) 

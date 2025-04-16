@@ -20,17 +20,14 @@ namespace Lista_enlazada_circular
         Lista li = new Lista();
         private void btnInsertFinal_Click(object sender, EventArgs e)
         {            
-            if (li.Buscar(int.Parse(txtNuevo.Text))!= false)
+            if (li.Buscar(int.Parse(txtNuevo.Text)))           
+                MessageBox.Show("El dato ya existe");           
+            else
             {
                 li.insertar_Final(int.Parse(txtNuevo.Text));
                 txtNuevo.Clear();
-                txtNuevo.Focus();
-            }
-            else
-            {
-                MessageBox.Show("El dato ya existe");
-            }
-                
+                txtNuevo.Focus();               
+            }               
         }
 
         private void BtnVerLista_Click(object sender, EventArgs e)
@@ -41,9 +38,14 @@ namespace Lista_enlazada_circular
 
         private void btnInsertInicio_Click(object sender, EventArgs e)
         {
-            li.insertar_inicio(int.Parse(txtNuevo.Text));
-            txtNuevo.Clear();
-            txtNuevo.Focus();
+            if (li.Buscar(int.Parse(txtNuevo.Text)))            
+                MessageBox.Show("El dato ya existe");         
+            else
+            {
+                li.insertar_inicio(int.Parse(txtNuevo.Text));
+                txtNuevo.Clear();
+                txtNuevo.Focus();
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
@@ -57,7 +59,19 @@ namespace Lista_enlazada_circular
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            li.Modificar(int.Parse(txtNuevo.Text), int.Parse(txtModifica.Text));
+            if (li.Buscar(int.Parse(txtNuevo.Text)))
+            {
+                if (li.Buscar(int.Parse(txtModifica.Text)))
+                    MessageBox.Show("El dato ya existe");
+                else
+                {
+                    li.Modificar(int.Parse(txtNuevo.Text), int.Parse(txtModifica.Text));
+                    txtModifica.Clear();
+                    txtNuevo.Clear();
+                }
+            }
+            else
+                MessageBox.Show("Dato no existente");
         }
 
         private void btnContar_Click(object sender, EventArgs e)

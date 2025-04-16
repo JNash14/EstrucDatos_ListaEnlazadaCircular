@@ -8,3 +8,13 @@ C:\Users\UPN\Desktop\Semana4 EstrucDatos\Lista_enlazada_circular\obj\Debug\Lista
 C:\Users\UPN\Desktop\Semana4 EstrucDatos\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.csproj.CoreCompileInputs.cache
 C:\Users\UPN\Desktop\Semana4 EstrucDatos\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.exe
 C:\Users\UPN\Desktop\Semana4 EstrucDatos\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.pdb
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\bin\Debug\Lista_enlazada_circular.exe.config
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\bin\Debug\Lista_enlazada_circular.exe
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\bin\Debug\Lista_enlazada_circular.pdb
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.csproj.AssemblyReference.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.Form1.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.Properties.Resources.resources
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.csproj.GenerateResource.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.csproj.CoreCompileInputs.cache
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.exe
+C:\Users\JNash\Documents\Proyectos C#\2025_I (Estructura de Datos)\Teoria\SEMANA4\Lista_enlazada_circular\obj\Debug\Lista_enlazada_circular.pdb
